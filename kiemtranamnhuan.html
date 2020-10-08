@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let year =+prompt("Nhap so nam")
+
+    if (year % 4 === 0 && year % 100!==0){
+        alert(year + "Do la nam nhuan")
+    }
+
+    if (year %100===0 && year%400!==0){
+        alert(year + "Khong phai la nam nhuan")
+    }
+
+    if (year % 100===0 && year %400===0){
+        alert(year + "Do la nam nhuan")
+    }
+    if (year %4!==0 && year %100!==0 && year %400!==0){
+alert(year + "Do khong la nam nhuan")}
+</script>
+
+
+</body>
+</html>
